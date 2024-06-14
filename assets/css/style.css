@@ -66,6 +66,23 @@ a:hover {
     background-position: 40% 40%;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+}
+
+.major-project {
+    text-align: center;
+    padding: 20px;
+}
+
+.major-project img {
+    max-width: 100%;
+    height: auto;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
