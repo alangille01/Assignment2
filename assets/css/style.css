@@ -83,6 +83,23 @@ a:hover {
     height: auto;
 }
 
+.other-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Space between images */
+}
+
+.other-projects section {
+    flex: 1 1 calc(50% - 20px); /* 50% width minus gap for two columns */
+    text-align: center;
+}
+
+.other-projects img {
+    max-width: 100%;
+    height: auto;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
