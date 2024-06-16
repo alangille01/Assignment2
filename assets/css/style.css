@@ -8,6 +8,10 @@ body {
     background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
 }
 
+/* 
+* Header Style
+*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,6 +38,12 @@ header nav ul {
     gap: 25px;
 }
 
+/* 
+* Style for Link References
+* 
+* Pink Highlight on hover
+*/
+
 a {
     color: #030303;
     text-decoration: none;
@@ -45,13 +55,6 @@ a:hover {
 
 p {
     font-size: 20px;
-}
-
-.profile-photo {
-    margin-top: 10px;
-    margin-bottom: 25px;
-    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-    background-position: 40% 40%;
 }
 
 .center {
@@ -66,6 +69,19 @@ p {
     padding: 5px;
 }
 
+.profile-photo {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    background-position: 40% 40%;
+}
+
+/* 
+* Major Project Section
+* 
+* Photo in this section will be larger so it can be highlighted
+*/
+
 .major-project {
     text-align: center;
     padding: 20px;
@@ -75,6 +91,10 @@ p {
     max-width: 100%;
     height: auto;
 }
+
+/* 
+* Other Project Section
+*/
 
 .other-projects {
     display: flex;
@@ -92,6 +112,11 @@ p {
     max-width: 100%;
     height: auto;
 }
+
+/* 
+* Container Definitiuons 
+* Rounded corners added
+*/
 
 .about-me {
     border-radius: 25px;
@@ -140,6 +165,10 @@ p {
     text-align: center;
 }
 
+/* 
+* Footer Style
+*/
+
 footer {
     padding: 30px;
     clear: both;
@@ -151,7 +180,11 @@ footer h2 {
     font-size: 20px;
 }
 
-/* Responsive Design */
+/* Responsive Design 
+* 
+* The @media rule is used in media queries to apply different 
+* styles for different media types/devices
+*/
 @media (max-width: 768px) {
     header h1 {
         font-size: 36px;
