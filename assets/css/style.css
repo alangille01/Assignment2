@@ -12,22 +12,6 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
-    color: #ffffff;
-}
-
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-header h1 .seo {
-    color: #d9dcd6;
-}
-
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
     color: #030303;
     display: flex;
     justify-content: space-between;
@@ -59,6 +43,10 @@ a:hover {
     color: hotpink;
 }
 
+p {
+    font-size: 20px;
+}
+
 .profile-photo {
     margin-top: 10px;
     margin-bottom: 25px;
@@ -66,20 +54,16 @@ a:hover {
     background-position: 40% 40%;
 }
 
-.about-me {
-    border-radius: 25px;
-    margin-bottom: 20px;
-    padding: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #0b0909;
-    background-color: #e5a3ff;
-}
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50vh;
+}
+
+.column {
+    flex: 1;
+    padding: 5px;
 }
 
 .major-project {
@@ -109,17 +93,52 @@ a:hover {
     height: auto;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+.about-me {
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0b0909;
+    background-color: #e5a3ff;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+.project-experiences {
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0b0909;
+    background-color: #c46eb8fd;
 }
 
+.contact-me {
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0b0909;
+    background-color: #eff3f6;
+}
 
+.about-me img, .project-experiences img, .contact-me img {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    max-height: 200px;
+}
+
+.project-experiences img {
+    max-height: 500px;
+}
+
+.about-me h2, .project-experiences h2, .contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.project-experiences h3 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+}
 
 footer {
     padding: 30px;
